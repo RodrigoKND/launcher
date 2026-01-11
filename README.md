@@ -29,7 +29,7 @@ cd path\to\launcher
 ```
 
 ## Configuración de PowerShell
-Para ejecutar scripts locales, debes ajustar la política de ejecución. Existen varias opciones:
+Para ejecutar scripts locales, debes ajustar la política de ejecución a preferencia. Existen varias opciones:
 
 ### Permitir scripts locales para todos los usuarios (menos seguro)
 ```markdown
