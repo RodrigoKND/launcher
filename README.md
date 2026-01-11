@@ -112,10 +112,14 @@ Se abrirá automáticamente:
 - La URL predeterminada si aplica
 
 ## Atajo de teclado (Recomendado)
-Para mayor comodidad, debes crear un atajo de teclado:
+Para mayor comodidad puedes crear un atajo de teclado que ejecute directamente el script:
 
-1. Crea un acceso directo al archivo launcher.ps1
-2. En Propiedades → Acceso directo → Tecla de método abreviado, asigna la combinación deseada (por ejemplo Ctrl + Alt + L)
+1. Crea un acceso directo al archivo launcher.ps1 o a un comando de PowerShell.
+2. Para que el acceso directo ejecute PowerShell con el script, usa este comando en el campo "Destino" del acceso directo:
+
+powershell.exe -ExecutionPolicy Bypass -File "C:\ruta\a\launcher.ps1"
+
+3. En Propiedades → Acceso directo → Tecla de método abreviado, asigna la combinación deseada (por ejemplo Ctrl + Alt + L)
 
 Asegúrate de que PowerShell permita ejecutar scripts según la configuración de seguridad mencionada arriba.
 
