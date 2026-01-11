@@ -131,7 +131,7 @@ El script no requiere permisos de administrador para la mayoría de operaciones.
 ## Contribuciones
 Si encuentras bugs o quieres sugerir mejoras, abre una Issue en este repositorio.
 Para contribuir directamente, haz un fork, realiza tus cambios y crea un Pull Request.
-Se agradecerán mejoras en detección de tecnologías, subcarpetas o integración con otros frameworks o tecnologias.
+Se agradecerán mejoras en detección de tecnologías, subcarpetas o integración con otros frameworks.
 
 ## Notas Finales
 Este script está diseñado para Windows PowerShell.
